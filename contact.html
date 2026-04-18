@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Janta Property Solution</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root { --primary: #1a5c2e; }
+        .bg-primary { background-color: var(--primary) !important; }
+        .text-primary-custom { color: var(--primary) !important; }
+        .btn-primary-custom { background-color: var(--primary); color: white; border: none; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary-custom fs-4" href="index.html">
+                <i class="fas fa-home me-2"></i>Janta Property Solution
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="properties.html">Properties</a></li>
+                    <li class="nav-item"><a class="nav-link" href="brokers.html">Brokers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="bg-primary py-5">
+        <div class="container text-center text-white">
+            <h1 class="fw-bold mb-2">Contact Us</h1>
+            <p class="lead opacity-75">Get in touch with us for any queries</p>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-7">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body p-4">
+                        <h3 class="fw-bold mb-4">Send us a Message</h3>
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label fw-bold">Your Name *</label>
+                                    <input type="text" class="form-control" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label fw-bold">Email *</label>
+                                    <input type="email" class="form-control" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label fw-bold">Phone</label>
+                                    <input type="tel" class="form-control">
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label class="form-label fw-bold">Subject</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="mb-4">
+                                <label class="form-label fw-bold">Message *</label>
+                                <textarea class="form-control" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary-custom btn-lg w-100">
+                                <i class="fas fa-paper-plane me-2"></i>Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="card border-0 shadow-sm mb-4">
+                    <div class="card-body p-4">
+                        <h4 class="fw-bold mb-4">Contact Information</h4>
+                        <div class="mb-3">
+                            <i class="fas fa-map-marker-alt me-2 text-primary-custom"></i>
+                            <strong>Address:</strong><br>123 Main Street, Delhi
+                        </div>
+                        <div class="mb-3">
+                            <i class="fas fa-phone me-2 text-primary-custom"></i>
+                            <strong>Phone:</strong><br>+91 9999999999
+                        </div>
+                        <div class="mb-3">
+                            <i class="fas fa-envelope me-2 text-primary-custom"></i>
+                            <strong>Email:</strong><br>info@janataproperty.com
+                        </div>
+                        <div>
+                            <i class="fas fa-clock me-2 text-primary-custom"></i>
+                            <strong>Working Hours:</strong><br>Mon - Sat: 9AM - 6PM
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024 Janta Property Solution. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
